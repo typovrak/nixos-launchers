@@ -12,3 +12,7 @@ image/webp=org.gnome.eog.desktop
 image/gif=org.gnome.eog.desktop
 image/bmp=org.gnome.eog.desktop
 image/svg+xml=org.gnome.eog.desktop
+application/pdf=org.gnome.evince.desktop
+application/x-pdf=org.gnome.evince.desktop
+application/x-bzpdf=org.gnome.evince.desktop
+application/x-gzpdf=org.gnome.evince.desktop
