@@ -48,6 +48,10 @@ in {
 		cp ${pkgs.celluloid}/share/applications/io.github.celluloid_player.Celluloid.desktop ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
 		chown ${username}:${group} ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
 		chmod 700 ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
+
+		cp ${pkgs.chromium}/share/applications/chromium-browser.desktop ${home}/.local/share/applications/chromium-browser.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/chromium-browser.desktop
+		chmod 700 ${home}/.local/share/applications/chromium-browser.desktop
 	'';
 
 	environment.systemPackages = with pkgs; [
