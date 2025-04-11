@@ -52,6 +52,10 @@ in {
 		cp ${pkgs.chromium}/share/applications/chromium-browser.desktop ${home}/.local/share/applications/chromium-browser.desktop
 		chown ${username}:${group} ${home}/.local/share/applications/chromium-browser.desktop
 		chmod 700 ${home}/.local/share/applications/chromium-browser.desktop
+
+		cp ${pkgs.yazi}/share/applications/yazi.desktop ${home}/.local/share/applications/yazi.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/yazi.desktop
+		chmod 700 ${home}/.local/share/applications/yazi.desktop
 	'';
 
 	environment.systemPackages = with pkgs; [
@@ -62,5 +66,6 @@ in {
 		lollypop
 		celluloid
 		chromium
+		yazi
 	];
 }
