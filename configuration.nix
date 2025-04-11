@@ -41,6 +41,9 @@ in {
 		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
 		chmod 700 ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
 
+		cp ${pkgs.lollypop}/share/applications/x ${home}/.local/share/applications/x
+		chown ${username}:${group} ${home}/.local/share/applications/x
+		chmod 700 ${home}/.local/share/applications/x
 	'';
 
 	environment.systemPackages = with pkgs; [
@@ -48,6 +51,7 @@ in {
 		neovim
 		eog
 		evince
+		lollypop
 		chromium
 	];
 }
