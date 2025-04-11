@@ -41,9 +41,9 @@ in {
 		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
 		chmod 700 ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
 
-		cp ${pkgs.lollypop}/share/applications/x ${home}/.local/share/applications/x
-		chown ${username}:${group} ${home}/.local/share/applications/x
-		chmod 700 ${home}/.local/share/applications/x
+		cp ${pkgs.lollypop}/share/applications/org.gnome.Lollypop.desktop ${home}/.local/share/applications/org.gnome.Lollypop.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.Lollypop.desktop
+		chmod 700 ${home}/.local/share/applications/org.gnome.Lollypop.desktop
 	'';
 
 	environment.systemPackages = with pkgs; [

@@ -19,10 +19,10 @@ application/x-pdf=org.gnome.Evince-previewer.desktop
 application/x-bzpdf=org.gnome.Evince-previewer.desktop
 application/x-gzpdf=org.gnome.Evince-previewer.desktop
 
-audio/mpeg=
-audio/mp3=
-audio/x-mp3=
-audio/x-mpeg=
-audio/mpeg3=
-audio/x-mpeg3=
-application/ogg=
+audio/mpeg=org.gnome.Lollypop.desktop
+audio/mp3=org.gnome.Lollypop.desktop
+audio/x-mp3=org.gnome.Lollypop.desktop
+audio/x-mpeg=org.gnome.Lollypop.desktop
+audio/mpeg3=org.gnome.Lollypop.desktop
+audio/x-mpeg3=org.gnome.Lollypop.desktop
+application/ogg=org.gnome.Lollypop.desktop
