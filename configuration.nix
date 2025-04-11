@@ -25,7 +25,7 @@ in {
 		chown ${username}:${group} ${home}/.local/share/applications/nvim.desktop
 		chmod 700 ${home}/.local/share/applications/nvim.desktop
 
-		xdg-mime default nvim.desktop text/plain
+		${pkgs.xdg-utils}/bin/xdg-mime default nvim.desktop text/plain
 		xdg-mime default nvim.desktop text/x-log
 		xdg-mime default nvim.desktop text/x-readme
 		xdg-mime default nvim.desktop text/x-markdown
