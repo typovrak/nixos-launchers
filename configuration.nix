@@ -37,9 +37,9 @@ in {
 		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.eog.desktop
 		chmod 700 ${home}/.local/share/applications/org.gnome.eog.desktop
 
-		cp ${pkgs.evince}/share/applications/org.gnome.evince.desktop ${home}/.local/share/applications/org.gnome.evince.desktop
-		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.evince.desktop
-		chmod 700 ${home}/.local/share/applications/org.gnome.evince.desktop
+		cp ${pkgs.evince}/share/applications/org.gnome.Evince-previewer.desktop ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
+		chmod 700 ${home}/.local/share/applications/org.gnome.Evince-previewer.desktop
 
 	'';
 
