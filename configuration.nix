@@ -32,6 +32,10 @@ in {
 		cp ${pkgs.neovim}/share/applications/nvim.desktop ${home}/.local/share/applications/nvim.desktop
 		chown ${username}:${group} ${home}/.local/share/applications/nvim.desktop
 		chmod 700 ${home}/.local/share/applications/nvim.desktop
+
+		cp ${pkgs.eog}/share/applications/org.gnome.eog.desktop ${home}/.local/share/applications/org.gnome.eog.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.eog.desktop
+		chmod 700 ${home}/.local/share/applications/org.gnome.eog.desktop
 	'';
 
 	environment.systemPackages = with pkgs; [
