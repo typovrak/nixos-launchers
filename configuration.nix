@@ -37,6 +37,7 @@ in {
 	environment.systemPackages = with pkgs; [
 		xdg-utils
 		neovim
+		eog
 		chromium
 	];
 }
