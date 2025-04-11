@@ -5,3 +5,4 @@ text/markdown=nvim.desktop
 text/x-python=nvim.desktop
 text/rust=nvim.desktop
 text/x-go=nvim.desktop
+text/x-lua=nvim.desktop
