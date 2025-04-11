@@ -44,6 +44,10 @@ in {
 		cp ${pkgs.lollypop}/share/applications/org.gnome.Lollypop.desktop ${home}/.local/share/applications/org.gnome.Lollypop.desktop
 		chown ${username}:${group} ${home}/.local/share/applications/org.gnome.Lollypop.desktop
 		chmod 700 ${home}/.local/share/applications/org.gnome.Lollypop.desktop
+
+		cp ${pkgs.celluloid}/share/applications/io.github.celluloid_player.Celluloid.desktop ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
+		chown ${username}:${group} ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
+		chmod 700 ${home}/.local/share/applications/io.github.celluloid_player.Celluloid.desktop
 	'';
 
 	environment.systemPackages = with pkgs; [
@@ -52,6 +56,7 @@ in {
 		eog
 		evince
 		lollypop
+		celluloid
 		chromium
 	];
 }
