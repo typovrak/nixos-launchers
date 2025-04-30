@@ -2,8 +2,6 @@
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
-## 📑 Table of Contents
-
 ## 📦 Features
 
 - 🔒 **Secure directories :** Creates and protects ```~/.config``` and ```~/.local/share/applications``` with correct ownership and permissions.
