@@ -1,4 +1,4 @@
-# NixOS Launchers
+# 🔧 NixOS Launchers
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
@@ -66,47 +66,42 @@ sudo nixos-rebuild switch
 
 ## 🎬 Usage
 
-### 1. Yazi
-```bash
-xdg-open .
-```
+Open files, directories, or URLs with `xdg-open` to launch them in your configured defaults :
 
-add video
+- 📝 **Neovim** - text editor : ```xdg-open file.txt```
 
-### 2. Neovim
-```bash
-echo "test" > test.txt
-xdg-open test.txt
-```
+- 🖼️ **EOG** - image viewer : ```xdg-open image.png```
 
-add video
+- 📄 **Evince** - pdf viewer : ```xdg-open file.pdf```
 
-### 3. Chromium
-```bash
-xdg-open "https://github.com/typovrak"
-```
+- 🍭 **Lollypop** - audio player : ```xdg-open song.mp3```
 
-add video
+- 🎥 **Celluloid** - video player : ```xdg-open video.mp4```
 
+- 🌐 **Chromium** - web browser : ```xdg-open "https://github.com/typovrak```
+
+- 📂 **Yazi** - file explorer : ```xdg-open .```
 
 ## ❤️ Support
 
-If this module saved you time, please ⭐️ the repo and share feedback.
+If this module saved you time, please ⭐️ the repo and share feedback.  
+You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
 
 ## 📝 License
 
-Distributed under the [MIT License](LICENSE.md).
+Distributed under the [MIT license](LICENSE.md).
 
-## 📜 Code of Conduct
+## 📜 Code of conduct
 
-This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md).
+This project maintains a [code of conduct](CODE_OF_CONDUCT.md) to ensure a respectful, inclusive and constructive community.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! See CONTRIBUTING.md and issues.
 
-## 🔐 Security
+## 🛡️ Security
 
-For vulnerability reporting and policy, see the [security policy](SECURITY.md).
+To report vulnerabilities or learn about supported versions and response timelines, please see our [security policy](SECURITY.md).
 
-*Made with 💜 by typovrak*
+---
+
+<p align="center"><i>Made with 💜 by typovrak</i></p>
