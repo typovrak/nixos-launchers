@@ -26,4 +26,4 @@ Reports are kept confidential. We commit to responding within 48 hours and addre
 
 ---
 
-<p align="center">💜 Thank you for fostering a welcoming and respectful community !</p>
+<p align="center"><i>💜 Thank you for fostering a welcoming and respectful community !</i></p>
