@@ -1,7 +1,7 @@
 # 🔐 Security Policy
 
 > "Given enough eyeballs, all bugs are shallow."
-> - Linus Torvalds
+> — Linus Torvalds
 
 ## 🛡️ Supported Versions
 
