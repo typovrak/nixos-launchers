@@ -90,15 +90,23 @@ add video
 
 
 ## ❤️ Support
+
 If this module saved you time, please ⭐️ the repo and share feedback.
 
 ## 📝 License
+
 Distributed under the [MIT License](LICENSE.md).
 
 ## 📜 Code of Conduct
+
 This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 ## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome! See CONTRIBUTING.md and issues.
 
-Made with 💜 by typovrak
+## 🔐 Security
+
+For vulnerability reporting and policy, see the [security policy](SECURITY.md).
+
+*Made with 💜 by typovrak*
