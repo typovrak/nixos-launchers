@@ -97,6 +97,8 @@ This project maintains a [code of conduct](CODE_OF_CONDUCT.md) to ensure a respe
 
 ## 🤝 Contributing
 
+Contributions, bug reports, feature requests and pull requests—are most welcome!  
+Please review our [contributing guide](CONTRIBUTING.md) for workflow, coding standards and submission tips, then open an issue or submit a pull request.
 
 ## 🛡️ Security
 
