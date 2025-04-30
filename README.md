@@ -1,66 +1,104 @@
-<h1 align="center">Welcome to nixos-launchers 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="projectdocumentationurl" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="licenseurl" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/typovrak" target="_blank">
-    <img alt="Twitter: typovrak" src="https://img.shields.io/twitter/follow/typovrak.svg?style=social" />
-  </a>
-</p>
+# nixos-launchers
 
-> NixOS desktop launchers module
+> Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
-### 🏠 [Homepage](projecthomepage)
+## 📑 Table of Contents
 
-### ✨ [Demo](projectdemourl)
+## 📦 Features
 
-## Install
+- 🔒 **Secure directories :** Creates and protects ```~/.config``` and ```~/.local/share/applications``` with correct ownership and permissions.
 
-```sh
-installcommand
+- 🛠️ **Launcher automation :** Installs and updates ```.desktop``` entries for selected applications on every system rebuild.
+
+- 📑 **MIME defaults :** Applies a custom ```mimeapps.list``` to set default applications and URL handlers automatically.
+
+- 🔄 **Idempotent :** Ensures consistent state across machines and rebuilds using NixOS activation scripts.
+
+- 💾 **Manual backups :** Backup commands are provided in the documentation to preserve existing files before changes if needed.
+
+- ⚙️ **Zero-friction setup :** Works out-of-the-box with sensible defaults.
+
+- 🌐 **Protocol support :** Registers handlers for schemes like ```mailto:```, ```ftp:``` and types ```inode/directory```.
+
+- 📦 **Dependency handling :** Automatically includes required packages in ```environment.systemPackages```.
+
+## ⚙️ Prerequisites
+
+### 1. NixOS version
+Requires NixOS 24.11 or newer.
+
+### 2. User validation
+the target user must be defined in ```config.username```.<br/>
+See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
+
+### 3. Backup
+Before proceeding, back up existing configuration if needed
+```bash
+cp ~/.config/mimeapps.list{,.bak}
+cp ~/.local/share/applications/*.desktop{,.bak}
 ```
 
-## Usage
+## 🚀 Installation
+Fetch the module directly in your main nixos configuration at ```/etc/nixos/configuration.nix``` using fetchGit
+```nix
+# /etc/nixos/configuration.nix
 
-```sh
-usagecommand
+let
+  nixos-launchers = fetchGit {
+    url = "https://github.com/typovrak/nixos-launchers.git";
+    ref = "main";
+    rev = "744197b2e31c2d6a0e1885cf87930e73f1b6ded1"; # update to the desired commit
+  };
+in
+{
+  imports = [
+    /etc/nixos/hardware-configuration.nix # system hardware settings
+    /etc/nixos/variables.nix # defines config.username and other variables, see https://github.com/typovrak/nixos for more details
+    (import "${nixos-launchers}/configuration.nix")
+  ];
+}
 ```
 
-## Run tests
-
-```sh
-testcommand
+Once imported, rebuild your system to apply changes
+```bash
+sudo nixos-rebuild switch
 ```
 
-## Author
+## 🎬 Usage
 
-👤 **typovrak**
+### 1. Yazi
+```bash
+xdg-open .
+```
 
-* Website: https://typovrak.tv
-* Twitter: [@typovrak](https://twitter.com/typovrak)
-* Github: [@typovrak](https://github.com/typovrak)
-* LinkedIn: [@morgan-scholz](https://linkedin.com/in/morgan-scholz)
+add video
 
-## 🤝 Contributing
+### 2. Neovim
+```bash
+echo "test" > test.txt
+xdg-open test.txt
+```
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](issuesurl). You can also take a look at the [contributing guide](contributingguideurl).
+add video
 
-## Show your support
+### 3. Chromium
+```bash
+xdg-open "https://github.com/typovrak"
+```
 
-Give a ⭐️ if this project helped you!
+add video
 
-<a href="https://www.patreon.com/patreon">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+
+## ❤️ Support
+If this module saved you time, please ⭐️ the repo and share feedback.
 
 ## 📝 License
+Distributed under the MIT License. See LICENSE for details.
 
-Copyright © 2025 [typovrak](https://github.com/typovrak).<br />
-This project is [MIT](licenseurl) licensed.
+## 📜 Code of Conduct
+This project follows the Contributor Covenant.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! See CONTRIBUTING.md and issues.
+
+Made with 💜 by typovrak
