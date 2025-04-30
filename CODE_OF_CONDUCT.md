@@ -1,5 +1,7 @@
 # 🤝 Contributor code of conduct
 
+> "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program"
+> – Linus Torvalds
 ## 📏 Community Guidelines
 
 All contributors and community members are expected to :
