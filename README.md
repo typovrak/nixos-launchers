@@ -26,8 +26,7 @@
 Requires NixOS 24.11 or newer.
 
 ### 2. User validation
-the target user must be defined in ```config.username```.<br/>
-See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
+the target user must be defined in ```config.username```. See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
 
 ### 3. Backup
 Before proceeding, back up existing configuration if needed
@@ -91,16 +90,11 @@ Distributed under the [MIT license](LICENSE.md).
 
 ## 📜 Code of conduct
 
-This project maintains a [code of conduct](CODE_OF_CONDUCT.md) to ensure a respectful, inclusive and constructive community.
-
-## 🤝 Contributing
-
-Contributions, bug reports, feature requests and pull requests—are most welcome!  
-Please review our [contributing guide](CONTRIBUTING.md) for workflow, coding standards and submission tips, then open an issue or submit a pull request.
+This project maintains a [code of conduct](.github/CODE_OF_CONDUCT.md) to ensure a respectful, inclusive and constructive community.
 
 ## 🛡️ Security
 
-To report vulnerabilities or learn about supported versions and response timelines, please see our [security policy](SECURITY.md).
+To report vulnerabilities or learn about supported versions and response timelines, please see our [security policy](.github/SECURITY.md).
 
 ---
 
