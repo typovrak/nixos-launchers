@@ -31,4 +31,4 @@ When reporting a vulnerability, please provide :
 
 ---
 
-<p align="center">💜 Thank you for helping keep this project and its users safe !</p>
+<p align="center"><i>💜 Thank you for helping keep this project and its users safe !</i></p>
