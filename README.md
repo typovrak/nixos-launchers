@@ -1,4 +1,4 @@
-# nixos-launchers
+# NixOS Launchers
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
@@ -93,7 +93,7 @@ add video
 If this module saved you time, please ⭐️ the repo and share feedback.
 
 ## 📝 License
-Distributed under the MIT License. See LICENSE for details.
+Distributed under the [MIT License](license.md).
 
 ## 📜 Code of Conduct
 This project follows the Contributor Covenant.
