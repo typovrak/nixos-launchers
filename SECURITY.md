@@ -1,35 +1,34 @@
-# Security Policy
+# 🔐 Security Policy
 
-## Supported Versions
+## 🛡️ Supported Versions
 
-The following versions of nixos-launchers are currently supported with security updates:
+The following versions of this project are currently supported with security updates:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
+| Version | Supported |
+| ------- | --------- |
+| 1.x     | ✅        |
 
+## ⚠️ Reporting a Vulnerability
 
-## Reporting a Vulnerability
+If you discover a security vulnerability, please **do not** disclose it publicly until it is resolved. Instead, report it privately via one of these channels:
+- Email: [typovrak@gmail.com](mailto:typovrak@gmail.com)
+- Private GitHub issue (if enabled)
+- Direct message to the project maintainer on GitHub
 
-We take the security of our simulation seriously. If you discover a security vulnerability, please follow these steps:
+## 📋 What to Include
 
-1. **Do not disclose the vulnerability publicly** until it has been addressed by the maintainers.
-2. Submit the vulnerability report through one of these channels:
-   - Send an email to [typovrak@gmail.com](mailto:typovrak@gmail.com)
-   - Create a private issue in the repository (if available)
-   - Contact the project maintainer directly through GitHub
+When reporting a vulnerability, please provide:
+- A clear description of the issue
+- Steps to reproduce (minimal reproduction if possible)
+- Potential impact and severity
+- Any suggested fixes or mitigations
 
-### What to Include in Your Report
+## ⏳ Response Process
 
-- A clear description of the vulnerability
-- Steps to reproduce the issue
-- Potential impact of the vulnerability
-- Suggested fixes or mitigations (if any)
+1. **Acknowledgment** within 48 hours of receipt
+2. **Assessment & fix** timeline based on severity (typically within 14–30 days)
+3. **Credit** for the discovery, unless anonymity is requested
 
-### Response Timeline
+---
 
-- You will receive an acknowledgment of your report within 48 hours.
-- Security issues will be addressed based on their severity, typically within 14-30 days.
-- Once resolved, you will be credited for the discovery (unless you prefer to remain anonymous).
-
-Thank you for helping keep our project and its users secure!
+<p align="center">💜 Thank you for helping keep this project and its users safe!</p>
