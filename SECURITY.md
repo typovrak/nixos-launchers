@@ -1,5 +1,8 @@
 # 🔐 Security Policy
 
+> "Given enough eyeballs, all bugs are shallow."
+> - Linus Torvalds
+
 ## 🛡️ Supported Versions
 
 The following versions of this project are currently supported with security updates :
