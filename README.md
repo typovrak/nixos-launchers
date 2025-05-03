@@ -26,7 +26,7 @@
 Requires NixOS 24.11 or newer.
 
 ### 2. User validation
-the target user must be defined in ```config.username```. See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
+the target user must be defined in ```config.username```. See <a href="https://github.com/typovrak/nixos" target="_blank" rel="noopener noreferrer">typovrak main nixos configuration</a> for more details.
 
 ### 3. Backup
 Before proceeding, back up existing configuration if needed
@@ -82,20 +82,24 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 ## ❤️ Support
 
 If this module saved you time, please ⭐️ the repo and share feedback.  
-You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
+You can also support me on ☕ <a href="https://www.buymeacoffee.com/typovrak" target="_blank" rel="noopener noreferrer">Buy me a coffee</a>.
+
+## 💬 Community
+
+Join our <a href="https://discord.gg/4Nq2cDAH" target="_blank" rel="noopener noreferrer">Discord server</a> to chat, ask questions and share tips in **English** or **French**.
 
 ## 📝 License
 
-Distributed under the [MIT license](LICENSE.md).
+Distributed under the <a href="LICENSE.md" target="_blank" rel="noopener noreferrer">MIT license</a>.
 
 ## 📜 Code of conduct
 
-This project maintains a [code of conduct](.github/CODE_OF_CONDUCT.md) to ensure a respectful, inclusive and constructive community.
+This project maintains a <a href=".github/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">code of conduct</a> to ensure a respectful, inclusive and constructive community.
 
 ## 🛡️ Security
 
-To report vulnerabilities or learn about supported versions and response timelines, please see our [security policy](.github/SECURITY.md).
+To report vulnerabilities or learn about supported versions and response timelines, please see our <a href=".github/SECURITY.md" target="_blank" rel="noopener noreferrer">security policy</a>.
 
 ---
 
-<p align="center"><i>Made with 💜 by typovrak</i></p>
+<p align="center"><i>Made with 💜 by <a href="https://typovrak.tv" target="_blank" rel="noopener noreferrer">typovrak</a></i></p>
