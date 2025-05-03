@@ -26,7 +26,7 @@
 Requires NixOS 24.11 or newer.
 
 ### 2. User validation
-the target user must be defined in ```config.username```. See <a href="https://github.com/typovrak/nixos" target="_blank" rel="noopener noreferrer">typovrak main nixos configuration</a> for more details.
+the target user must be defined in ```config.username```. See <a href="https://github.com/typovrak/nixos" target="_blank">typovrak main nixos configuration</a> for more details.
 
 ### 3. Backup
 Before proceeding, back up existing configuration if needed
