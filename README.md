@@ -20,6 +20,19 @@
 
 - 📦 **Dependency handling :** Automatically includes required packages in ```environment.systemPackages```.
 
+## 📂 Repository structure
+
+```bash
+❯ tree -a -I ".git|.github"
+.
+├── configuration.nix
+├── LICENSE.md
+├── mimeapps.list
+└── README.md
+
+1 directory, 4 files
+```
+
 ## ⚙️ Prerequisites
 
 ### 1. NixOS version
