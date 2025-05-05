@@ -2,6 +2,17 @@
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
+## 🧩 Part of the Typovrak NixOS Ecosystem
+
+This module is part of ```Typovrak NixOS```, a fully modular and declarative operating system configuration built entirely with :
+
+- 🧱 **30+ standalone modules :** Each managing a specific tool, feature or aesthetic like ```zsh```, ```i3```, ```lighdm```, ```polybar```, ```gtk``` and more.
+- 🎨 **Catppuccin Mocha :** The default theme across terminal, GUI, and login interfaces.
+- 🛡️ **100% FOSS compliant :** No proprietary software included unless explicitly chosen.
+- 🧑‍💻 **Built for developers :** Optimized for speed, keyboard-centric workflows and expressive CLI tooling.
+
+*Explore the full system : 👉 [github.com/typovrak/nixos](https://github.com/typovrak/nixos)*
+
 ## 📦 Features
 
 - 🔒 **Secure directories :** Creates and protects ```~/.config``` and ```~/.local/share/applications``` with correct ownership and permissions.
