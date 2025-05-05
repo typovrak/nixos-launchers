@@ -2,7 +2,7 @@
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
 
-## 🧩 Part of the Typovrak NixOS Ecosystem
+## 🧩 Part of the Typovrak NixOS ecosystem
 
 This module is part of ```Typovrak NixOS```, a fully modular and declarative operating system configuration built entirely with :
 
@@ -16,19 +16,12 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 ## 📦 Features
 
 - 🔒 **Secure directories :** Creates and protects ```~/.config``` and ```~/.local/share/applications``` with correct ownership and permissions.
-
 - 🛠️ **Launcher automation :** Installs and updates ```.desktop``` entries for selected applications on every system rebuild.
-
 - 📑 **MIME defaults :** Applies a custom ```mimeapps.list``` to set default applications and URL handlers automatically.
-
 - 🔄 **Idempotent :** Ensures consistent state across machines and rebuilds using NixOS activation scripts.
-
 - 💾 **Manual backups :** Backup commands are provided in the documentation to preserve existing files before changes if needed.
-
 - ⚙️ **Zero-friction setup :** Works out-of-the-box with sensible defaults.
-
 - 🌐 **Protocol support :** Registers handlers for schemes like ```mailto:```, ```ftp:``` and types ```inode/directory```.
-
 - 📦 **Dependency handling :** Automatically includes required packages in ```environment.systemPackages```.
 
 ## 📂 Repository structure
@@ -90,31 +83,33 @@ sudo nixos-rebuild switch
 Open files, directories, or URLs with `xdg-open` to launch them in your configured defaults :
 
 - 📝 **Neovim** - text editor : ```xdg-open file.txt```
-
 - 🖼️ **EOG** - image viewer : ```xdg-open image.png```
-
 - 📄 **Evince** - pdf viewer : ```xdg-open file.pdf```
-
 - 🍭 **Lollypop** - audio player : ```xdg-open song.mp3```
-
 - 🎥 **Celluloid** - video player : ```xdg-open video.mp4```
-
 - 🌐 **Chromium** - web browser : ```xdg-open "https://github.com/typovrak```
-
 - 📂 **Yazi** - file explorer : ```xdg-open .```
 
-## ❓ User Questions & Resolved Issues
+## ❓ User questions & resolved issues
 
 ❌ No issues have been reported yet.
 
 *If you encounter a problem, please open an [issue](issues) or submit a [pull request](pulls) to document the fix.*
+
+## 📚 Learn more
+
+- 📂 [XDG base directory specification](https://wiki.archlinux.org/title/XDG_Base_Directory) : Explains where config files and app data should live.
+- 🧩 [MIME types and default applications](https://wiki.archlinux.org/title/Default_applications) : Learn how Linux associates file types with apps via ```mimeapps.list```.
+- 🖱️ [Desktop entry specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/) : Official freedesktop.org spec for ```.desktop``` launcher files.
+- 🔗 [XDG utilities](https://wiki.archlinux.org/title/Xdg-utils) : Overview of tools like ```xdg-open``` to open files with the default application.
+- 🐧 [NixOS MIME & desktop integration](https://nixos.org/manual/nixos/stable/options.html#opt-xdg.mime.defaultApplications) : How NixOS handles MIME types and desktop entries declaratively.
 
 ## ❤️ Support
 
 If this module saved you time, please ⭐️ the repo and share feedback.  
 You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
 
-## 💬 Join the Typovrak Community on Discord 🇫🇷
+## 💬 Join the Typovrak community on Discord 🇫🇷
 > "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
 > ― Albert Einstein
 
