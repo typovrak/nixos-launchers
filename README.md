@@ -92,14 +92,36 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 
 - 📂 **Yazi** - file explorer : ```xdg-open .```
 
+## ❓ User Questions & Resolved Issues
+
+❌ No issues have been reported yet.
+
+*If you encounter a problem, please open an [issue](issues) or submit a [pull request](pulls) to document the fix.*
+
 ## ❤️ Support
 
 If this module saved you time, please ⭐️ the repo and share feedback.  
 You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
 
-## 💬 Community
+## 💬 Join the Typovrak Community on Discord 🇫🇷
+> "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
+> ― Albert Einstein
 
-Join our [Discord server](https://discord.gg/4Nq2cDAH) to chat, ask questions and share tips in **English** or **French**.
+If you've ever ```rm -rf```ed your config by mistake or rebuilt for the 42nd time because a semicolon was missing…
+
+You're not alone, **Welcome home !**
+
+🎯 [Join us on Discord »](https://discord.gg/4Nq2cDAH)
+
+🧭 What you’ll find is :
+
+- ```💻 #nixos-setup``` - get help with modules, rebuilds and configs.
+- ```🌐 #web-dev``` - talk JS, TypeScript, React, Node and more.
+- ```🧠 #open-source``` - share your repos, contribute to others and discuss FOSS culture.
+- ```⌨️ #typing``` - layouts, mechanical keyboards and speed goals.
+- ```🎨 #ricing``` - dotfiles, theming tips and desktop screenshots.
+
+*Everyone's welcome no matter how many times you've broken your system ~~(except for Windows users)~~ 😄*
 
 ## 📝 License
 
