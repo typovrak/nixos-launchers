@@ -36,6 +36,7 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 
 1 directory, 4 files
 ```
+TODO: need better comments here
 
 ## ⚙️ Prerequisites
 
@@ -103,6 +104,12 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 - 🖱️ [Desktop entry specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/) : Official freedesktop.org spec for ```.desktop``` launcher files.
 - 🔗 [XDG utilities](https://wiki.archlinux.org/title/Xdg-utils) : Overview of tools like ```xdg-open``` to open files with the default application.
 - 🐧 [NixOS MIME & desktop integration](https://nixos.org/manual/nixos/stable/options.html#opt-xdg.mime.defaultApplications) : How NixOS handles MIME types and desktop entries declaratively.
+
+TODO: update links and content for better quality
+
+TODO: add fork section for customization
+
+TODO: rewrite for saying that customization works only on fork for better experience and reusability for the user.
 
 ## ❤️ Support
 
