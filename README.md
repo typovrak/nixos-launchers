@@ -57,7 +57,10 @@ cp ~/.config/mimeapps.list{,.bak}
 cp ~/.local/share/applications/*.desktop{,.bak}
 ```
 
-## 🚀 Out-of-the-box installation
+## ⬇️ Installation
+
+### 🚀 Method 1 : Out-of-the-box
+
 Fetch the module directly in your [main nixos configuration](https://github.com/typovrak/nixos) at ```/etc/nixos/configuration.nix``` using fetchGit
 ```nix
 # /etc/nixos/configuration.nix
@@ -83,7 +86,7 @@ Once imported, rebuild your system to apply changes
 sudo nixos-rebuild switch
 ```
 
-## 🍴 Fork installation
+### 🍴 Method 2 : Fork
 
 Want to **personalize** this module ?
 
@@ -123,12 +126,6 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 - 🌐 **Chromium** - web browser : ```xdg-open "https://github.com/typovrak```
 - 📂 **Yazi** - file explorer : ```xdg-open .```
 
-## ❓ User questions & resolved issues
-
-❌ No issues have been reported yet.
-
-*If you encounter a problem, please open an [issue](issues) or submit a [pull request](pulls) to document the fix.*
-
 ## 📚 Learn more
 
 - 📂 [XDG base directory specification](https://wiki.archlinux.org/title/XDG_Base_Directory) : Explains where config files and app data should live.
@@ -147,8 +144,6 @@ If this module saved you time, please ⭐️ the repo and share feedback.
 You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
 
 ## 💬 Join the Typovrak community on Discord 🇫🇷
-> "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-> ― Albert Einstein
 
 If you've ever ```rm -rf```ed your config by mistake or rebuilt for the 42nd time because a semicolon was missing…
 
