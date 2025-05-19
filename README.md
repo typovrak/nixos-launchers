@@ -13,6 +13,11 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 
 *Explore the full system : 👉 [github.com/typovrak/nixos](https://github.com/typovrak/nixos)*
 
+## ⚠️ This module is opinionated
+This module may **override**, **replace**, or **remove** files and settings **without** prompt.
+
+To avoid unexpected changes, **back up** your existing files or **fork** this module to take full control.
+
 ## 📦 Features
 
 - 🔒 **Secure directories :** Creates and protects ```~/.config``` and ```~/.local/share/applications``` with correct ownership and permissions.
@@ -53,8 +58,8 @@ cp ~/.config/mimeapps.list{,.bak}
 cp ~/.local/share/applications/*.desktop{,.bak}
 ```
 
-## 🚀 Installation
-Fetch the module directly in your main nixos configuration at ```/etc/nixos/configuration.nix``` using fetchGit
+## 🚀 Out-of-the-box installation
+Fetch the module directly in your [main nixos configuration](https://github.com/typovrak/nixos) at ```/etc/nixos/configuration.nix``` using fetchGit
 ```nix
 # /etc/nixos/configuration.nix
 
@@ -77,6 +82,34 @@ in
 Once imported, rebuild your system to apply changes
 ```bash
 sudo nixos-rebuild switch
+```
+
+## 🍴 Fork installation
+
+Want to personalize this module?
+
+Fork it and add this custom module in your [main nixos configuration](https://github.com/typovrak/nixos) at ```/etc/nixos/configuration.nix``` using fetchGit
+```nix
+let
+  nixos-launchers = fetchGit {
+    url = "https://github.com/<YOUR_USERNAME>/nixos-launchers.git";
+    ref = "main";
+    rev = "<COMMIT>"; # see below
+  };
+in {
+  imports = [
+    /etc/nixos/hardware-configuration.nix # system hardware settings
+    /etc/nixos/variables.nix # defines config.username and other variables, see https://github.com/typovrak/nixos for more details
+    (import "${nixos-launchers}/configuration.nix")
+  ];
+}
+```
+
+Get the latest commit hash by executing
+```bash
+git clone https://github.com/<YOUR_USERNAME>/nixos-launchers.git &&
+cd nixos-launchers &&
+git log -1 --pretty=format:"%H"
 ```
 
 ## 🎬 Usage
@@ -105,11 +138,14 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 - 🔗 [XDG utilities](https://wiki.archlinux.org/title/Xdg-utils) : Overview of tools like ```xdg-open``` to open files with the default application.
 - 🐧 [NixOS MIME & desktop integration](https://nixos.org/manual/nixos/stable/options.html#opt-xdg.mime.defaultApplications) : How NixOS handles MIME types and desktop entries declaratively.
 
-TODO: update links and content for better quality
+## 🌐 Official Website
 
-TODO: add fork section for customization
+Discover the full Typovrak NixOS ecosystem on our official website!
+Browse all modules, explore features, and enjoy a clean Catppuccin-themed interface.
 
-TODO: rewrite for saying that customization works only on fork for better experience and reusability for the user.
+→ typovrak.dev/nixos
+
+Whether you're a minimalist or a maximalist, the site helps you dive into every detail — from shell tweaks to theme polish.
 
 ## ❤️ Support
 
