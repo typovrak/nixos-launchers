@@ -137,7 +137,7 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 - 🧩 [MIME types and default applications](https://wiki.archlinux.org/title/Default_applications) : Learn how Linux associates file types with apps via ```mimeapps.list```.
 - 🔗 [XDG utilities](https://wiki.archlinux.org/title/Xdg-utils) : Overview of tools like ```xdg-open``` to open files with the default application.
 
-## 🌐 Discover the Site
+## 🌐 Discover my NixOS system portal
 
 Dive into [typovrak.tv/nixos](https://typovrak.tv/nixos) Catppuccin mocha green themed **gateway** to my GitHub and NixOS setup.
 
@@ -154,7 +154,7 @@ If you've ever ```rm -rf```ed your config by mistake or rebuilt for the 42nd tim
 
 You're not alone, **Welcome home !**
 
-🎯 [Join us on Discord »](https://discord.gg/4Nq2cDAH)
+🎯 [Join us on Discord »](https://discord.gg/ZDN7CYAGpx)
 
 🧭 What you’ll find is :
 
@@ -165,18 +165,6 @@ You're not alone, **Welcome home !**
 - ```🎨 #ricing``` - dotfiles, theming tips and desktop screenshots.
 
 *Everyone's welcome no matter how many times you've broken your system ~~(except for Windows users)~~ 😄*
-
-## 📝 License
-
-Distributed under the [MIT license](LICENSE.md).
-
-## 📜 Code of conduct
-
-This project maintains a [code of conduct](.github/CODE_OF_CONDUCT.md) to ensure a respectful, inclusive and constructive community.
-
-## 🛡️ Security
-
-To report vulnerabilities or learn about supported versions and response timelines, please see our [security policy](.github/SECURITY.md).
 
 ---
 
