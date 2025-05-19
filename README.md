@@ -32,16 +32,15 @@ To avoid unexpected changes, **back up** your existing files or **fork** this mo
 ## 📂 Repository structure
 
 ```bash
-❯ tree -a -I ".git|.github"
+❯ tree -a -I ".git*"
 .
-├── configuration.nix
-├── LICENSE.md
-├── mimeapps.list
-└── README.md
+├── configuration.nix # module configuration
+├── LICENSE.md        # MIT license
+├── mimeapps.list     # default application mapping
+└── README.md         # this documentation
 
 1 directory, 4 files
 ```
-TODO: need better comments here
 
 ## ⚙️ Prerequisites
 
@@ -86,7 +85,7 @@ sudo nixos-rebuild switch
 
 ## 🍴 Fork installation
 
-Want to personalize this module?
+Want to **personalize** this module ?
 
 Fork it and add this custom module in your [main nixos configuration](https://github.com/typovrak/nixos) at ```/etc/nixos/configuration.nix``` using fetchGit
 ```nix
@@ -134,18 +133,13 @@ Open files, directories, or URLs with `xdg-open` to launch them in your configur
 
 - 📂 [XDG base directory specification](https://wiki.archlinux.org/title/XDG_Base_Directory) : Explains where config files and app data should live.
 - 🧩 [MIME types and default applications](https://wiki.archlinux.org/title/Default_applications) : Learn how Linux associates file types with apps via ```mimeapps.list```.
-- 🖱️ [Desktop entry specification](https://specifications.freedesktop.org/desktop-entry-spec/latest/) : Official freedesktop.org spec for ```.desktop``` launcher files.
 - 🔗 [XDG utilities](https://wiki.archlinux.org/title/Xdg-utils) : Overview of tools like ```xdg-open``` to open files with the default application.
-- 🐧 [NixOS MIME & desktop integration](https://nixos.org/manual/nixos/stable/options.html#opt-xdg.mime.defaultApplications) : How NixOS handles MIME types and desktop entries declaratively.
 
-## 🌐 Official Website
+## 🌐 Discover the Site
 
-Discover the full Typovrak NixOS ecosystem on our official website!
-Browse all modules, explore features, and enjoy a clean Catppuccin-themed interface.
+Dive into [typovrak.tv/nixos](https://typovrak.tv/nixos) Catppuccin mocha green themed **gateway** to my GitHub and NixOS setup.
 
-→ typovrak.dev/nixos
-
-Whether you're a minimalist or a maximalist, the site helps you dive into every detail — from shell tweaks to theme polish.
+Browse **every module**, example and config in a sleek with an interactive interface that feels just like your desktop.
 
 ## ❤️ Support
 
