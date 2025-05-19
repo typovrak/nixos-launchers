@@ -1,3 +1,7 @@
+[![NixOS ≥ 24.11](https://img.shields.io/badge/NixOS-24.11%2B-a6e3a1?labelColor=45475a)](https://nixos.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-a6e3a1.svg?labelColor=45475a)](LICENSE.md)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-☕-a6e3a1?labelColor=45475a)](https://www.buymeacoffee.com/typovrak)
+
 # 🔧 NixOS Launchers
 
 > Effortlessly configure and manage your desktop’s default application launchers and MIME type associations on NixOS. This module automates directory setup, permissions, and .desktop entry deployment for a seamless user experience.
