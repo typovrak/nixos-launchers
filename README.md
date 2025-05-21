@@ -18,10 +18,8 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 
 *Explore the full system : 👉 [github.com/typovrak/nixos](https://github.com/typovrak/nixos)*
 
-## ⚠️ This module is opinionated
-This module may **override**, **replace**, or **remove** files and settings **without** prompt.
-
-To avoid unexpected changes, **back up** your existing files or **fork** this module to take full control.
+> [!CAUTION]
+> This module is opinionated, it may **override**, **replace**, or **remove** files and settings **without** prompt. To avoid unexpected changes, **back up** your existing files or **fork** this module to take full control. **Follow this documentation** to avoid any of this problem.
 
 ## 📦 Features
 
