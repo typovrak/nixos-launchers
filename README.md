@@ -51,7 +51,7 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 Requires NixOS 24.11 or newer.
 
 ### 2. User validation
-the target user must be defined in ```config.username```. See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
+The target user must be defined in ```config.username```. See [typovrak main nixos configuration](https://github.com/typovrak/nixos) for more details.
 
 ### 3. Backup
 Before proceeding, back up existing configuration if needed
@@ -144,7 +144,7 @@ Browse **every module**, example and config in a sleek with an interactive inter
 ## ❤️ Support
 
 If this module saved you time, please ⭐️ the repo and share feedback.  
-You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak).
+You can also support me on ☕ [Buy me a coffee](https://www.buymeacoffee.com/typovrak)
 
 ## 💬 Join the Typovrak community on Discord 🇫🇷
 
@@ -152,7 +152,7 @@ If you've ever ```rm -rf```ed your config by mistake or rebuilt for the 42nd tim
 
 You're not alone, **Welcome home !**
 
-🎯 [Join us on Discord »](https://discord.gg/ZDN7CYAGpx)
+🎯 [Join us on Discord »](https://typovrak.tv/discord)
 
 🧭 What you’ll find is :
 
